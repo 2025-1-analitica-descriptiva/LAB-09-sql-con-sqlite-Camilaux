@@ -22,3 +22,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT *
+FROM tbl1
+WHERE c14 IS NOT NULL
+ORDER BY c14
+LIMIT 5;
