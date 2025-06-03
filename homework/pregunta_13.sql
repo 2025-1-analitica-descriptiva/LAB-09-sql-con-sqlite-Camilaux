@@ -46,7 +46,7 @@
 
 SELECT 
     K0, 
-    CAST(AVG(c12) AS REAL) AS "avg(c12)"
+    ROUND(AVG(c12) + 0.00001, 2) AS "avg(c12)"
 FROM tbl1
 WHERE c13 > 400
 GROUP BY K0
